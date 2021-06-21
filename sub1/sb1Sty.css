@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: black;
+    font-size: 10px;
+}
+
+#headername{
+    position: absolute;
+    top: -20px;
+    color: white;
+    font-size: 2rem;
+}
+
+#artworkBtn{
+    position: absolute;
+    left: 980px;
+    color: white;
+    font-size: 1rem;
+}
+
+#content{
+    position: relative;
+    top: 40px;
+    width: 1060px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#main{
+    
+    align-items: center;
+    width: 1060px;
+}
+
+#title{
+    position: relative;
+    height: 70px;
+
+        
+}
+
+#mainImg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#title p{
+    
+    padding-left: 870px;
+
+    font-size: 1rem;
+}
+
+
+
+
+#subImg{
+   display: flex;
+    width: 1060px;
+    height: 480px;
+}
+
+#front{
+    position: relative;
+    left: 50px;
+    height: 450px;
+    width: 450px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#back{
+    position: relative;
+    left: 110px;
+    height: 450px;
+    width: 450px;
+    background-color:grey;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#frontshot{
+    position: relative;
+    top: 20px;
+    right: 160px;
+}
+
+#backshot{
+    position: relative;
+    right: 150px;
+}
+
+#sub2box{
+    position: relative;
+    display: flex;
+    width: 1060px;
+    height: 500px;
+}
+#sub2{
+    position: relative;
+    display: flex;
+    justify-content: c;
+    top: 20px;
+    left: 150px;
+    width: 630px;
+    height: 400px;
+    background-color: grey;
+}
+
+#iconBox{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 290px;
+    width: 142px;
+    height: 135px;
+   
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 126px;
+
+}
+
+#icon div{
+    margin: 2px;
+    width: 42px;
+    height: 40px;
+
+}
+
+#iconName{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 75px;
+    height: 126px;
+    
+}
+
+#iconName p{
+    margin-top: 0px;
+    width: 75px;
+    height: 35px;
+    
+}
+
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: centert;
+    position: fixed;
+    top: 0;
+    width: 1060px;
+    height: 50px;
+    background-color: black;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1060px;
+    height: 100px;
+   background-color: black ;
+   position: relative;
+}
+
+#facebook{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+
+#fURL{
+    font-size: 1rem
+}
+
+#instagramURL{
+    font-size: 1rem
+}
+
+#instagram{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.75;
+}
+
+
+#dm{
+    padding-left: 210px;
+}
+#lp{
+    padding-left: 160px;
+}
+#im{
+    padding-left: 170px;
+}
+#hm{
+    padding-left: 140px;
+}
+
+#sliderName p:hover{
+    color: darkmagenta;
+}
+
+#iURL p{
+    color: white;
+}
+#fURL p{
+    color: white;
+}
+
+
+p{  
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
