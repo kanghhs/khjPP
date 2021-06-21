@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: black;
+    font-size: 10px;
+}
+
+#headername{
+    position: absolute;
+    top: -20px;
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 7px;
+}
+
+
+
+#artworkBtn{
+    position: absolute;
+    top: -10px;
+    left: 980px;
+    color: white;
+    
+}
+
+#artworkBtn:hover{
+    color: violet;
+}
+#all{
+    position: absolute;
+    top: 50px;
+}
+
+#content{
+    position: relative;
+    top: 50px;
+    width: 1060px;
+    height: 856px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#main{
+    
+    align-items: center;
+    width: 1060px;
+    height: 1660px;
+}
+
+#mainImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1060px;
+    height: 806px;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0.75;
+}
+
+#dsffggs{
+    position: relative;
+    left: 135px;
+}
+
+#mainTypo{
+    width: 300px;
+    height: 700px;
+    position: relative;
+    left: 50px;
+}
+
+
+#aa{
+    position: relative;
+    height: 200px;
+    font-size: 2rem;
+}
+
+#bb{
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    font-size: 2rem;
+
+}
+
+#contact{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 600px;
+    width: 300px;
+    height: 100px;
+}
+
+#phone{
+    position: relative;
+    top: 30px;
+    padding-left: 180px;
+    font-size: 1rem;
+}
+
+#email{
+    padding-left: 120px;
+    font-size: 1rem;
+}
+
+
+#kang{
+    position: relative;
+    top: 100px;
+}
+
+#hyo{
+    padding-left: 30px;
+}
+
+#jun{
+    padding-left: 50px; 
+    position: relative;
+    top: -100px;
+}
+
+#bar{
+    position: relative;
+    width: 1060px;
+    height: 50px;
+    background-color: black;
+}
+
+#barname{
+    padding-top: 10px;
+    padding-left: 5px;
+    color: white;
+    margin: 0px;
+}
+
+#artworks{
+    display: flex;
+    justify-content: flex-start;
+    width: 2000px;
+    height: 500px;
+    background-color: white;
+}
+
+#artworkMenu{
+    height: 80px;
+    width: 1060px;
+    background-color: cornflowerblue;
+}
+
+#sildePage{
+    position: relative;
+    width: 1060px;
+    height: 880px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#arrows{
+    position: absolute;
+    top: 0px;
+    width: 1060px;
+    height: 880px;
+}
+
+#Larrow{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 14px;
+
+}
+
+#Rarrow{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right: 14px;
+    top: 230px;
+    transform: scale(-1);
+    
+}
+
+#allSlider{
+    width: 2000px;
+    height: 880px;
+    transition: transform 1.5s;
+}
+
+
+.slider{
+    overflow: hidden;
+    top: 30px;
+    margin: 10px;
+    width: 333px;
+    height: 485px;
+    background-color: darkgrey;
+    pointer-events:auto;
+}
+
+
+#slider1{
+    position: relative;
+    right: 450px;
+    top: -15px;
+    opacity: 0.75;
+}
+
+#sliderNameGRP{
+    position: relative;
+    top: 10px;
+    width: 2000px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+}
+
+p{  
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+#sliderName{
+    margin: 10px;
+    height: 200px;
+    width: 333px;
+}
+
+#frog{
+    padding-left: 180px;
+    color: black;
+}
+
+#cctv{
+    padding-left: 130px;
+    color: black;
+}
+
+#slider2{
+    position: relative;
+    right: 270px;
+    top: -15px;
+    opacity: 0.75;
+}
+
+#slider3{
+    position: relative;
+    right: 270px;
+    top: -5px;
+    opacity: 0.75;
+}
+
+#slider4{
+    position: relative;
+    right: 340px;
+    top: 20px;
+    opacity: 0.75;
+}
+
+#slider5{
+    position: relative;
+    right: 200px;
+    top: 0px;
+    opacity: 0.75;
+}
+
+#header{
+    display: flex;
+    align-content: center;
+    justify-content: centert;
+    position: fixed;
+    top: 0;
+    width: 1060px;
+    height: 50px;
+    background-color: black;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1060px;
+    height: 100px;
+   background-color: black ;
+   position: relative;
+}
+
+#facebook{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+
+}
+
+#footer p{
+    font-size: 0.5rem
+}
+
+#instagramURL{
+    font-size: 1rem
+}
+
+#instagram{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.75;
+}
+
+
+#dm{
+    padding-left: 210px;
+    color: black;
+}
+#lp{
+    padding-left: 160px;
+    color: black;
+}
+#im{
+    padding-left: 170px;
+    color: black;
+}
+#hm{
+    padding-left: 140px;
+    color: black;
+}
+
+#iURL p{
+    color: white;
+}
+#fURL p{
+    color: white;
+}
+
